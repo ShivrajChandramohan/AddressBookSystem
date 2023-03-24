@@ -40,7 +40,7 @@ namespace AddressBookAssignment
                 {
                     if (data.firstName == name)
                     {
-                        // Console.WriteLine("Enter option to edit:\n1.First Name\n2.Second Name\n3.Address\n4.city\n5.state\n6.phone number\n7.email");
+                       
                         int option = Convert.ToInt32(Console.ReadLine());
                         switch (option)
                         {
